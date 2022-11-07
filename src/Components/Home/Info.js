@@ -30,9 +30,16 @@ const Info = () => {
           </p>
           <button className='button w-40 h-12'>Hire me</button>
           <div className='flex mt-32'>
-            <img className='h-20 mr-8' src={github} alt='' />
-            <img className='h-20 mr-8' src={linkedin} alt='' />
-            <img className='h-20 mr-8' src={instagram} alt='' />
+            <a href='https://github.com/iliasrony21'>
+              <img className='h-20 mr-8' src={github} alt='' />
+            </a>
+            <a href='https://www.linkedin.com/in/md-ilias-rony-3b79a3241/'>
+              <img className='h-20 mr-8' src={linkedin} alt='' />
+            </a>
+            <a href='https://www.instagram.com/'>
+              {' '}
+              <img className='h-20 mr-8' src={instagram} alt='' />
+            </a>
           </div>
         </div>
         <div className='right-part flex-1'>
